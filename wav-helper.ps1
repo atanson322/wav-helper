@@ -8,7 +8,7 @@ if (!(Test-Path -Path $outputFolder)) {
 }
 
 # Define expected local FFmpeg path
-$localFFmpegPath = "C:\Users\atans\ffmpeg-7.1-essentials_build\bin\ffmpeg.exe"
+$localFFmpegPath = "path-to\ffmpeg.exe"
 
 # Check if FFmpeg exists in the local folder first
 if (Test-Path -Path $localFFmpegPath) {
